@@ -1,0 +1,21 @@
+// definir el area de un circulo
+//
+
+# incluye  " stdafx.h "
+# incluye  " conio.h "
+# incluye  < iostream >
+
+usando el  espacio de nombres  std ;
+
+int  main ()
+{
+    flotar r, área, pi ;
+    cout << " AREA DEL CIRCULO " << endl;
+    cout << " Escribe el radio del circulo: " << endl;
+    cin >> r;
+    pi = 3,1416 ;
+    área = ( pi * r * r);
+    cout << " El area del circulo es: " << area;
+
+     getch ();
+}
